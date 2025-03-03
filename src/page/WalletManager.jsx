@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import CreateWallet from "../component/CreateWallet/CreateWallet";
 import WalletDetails from "../component/WalletDetails/WalletDetails";
 import BalanceChecker from "../component/BalanceChecker/BalanceChecker";
-import "./WalletManager.css"; // Import external CSS
+import "./section.css"; // Import external CSS
 
 function WalletManager() {
 

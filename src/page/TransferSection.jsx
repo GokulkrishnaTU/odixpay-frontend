@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TransferFunds from "../component/TransferFunds/TransferFunds";
 import TransactionDetails from "../component/TransactionDetails/TransactionDetails";
 import TransactionHistory from "../component/TransactionHistory/TransactionHistory";
-import "./WalletManager.css"; // Import external CSS
+import "./section.css"; // Import external CSS
 
 function TransferSection() {
   // State to hold transaction details and history
