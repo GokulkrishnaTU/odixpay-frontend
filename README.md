@@ -2,8 +2,8 @@ Project Overview
 This project was initially provided with only the backend code in Python as part of an interview task. To complete the task, I developed a Node.js backend with APIs covering all the required functionalities. Additionally, I deployed both the frontend and backend to ensure full functionality.
 
 Deployment Details
-Backend: Deployed on [netlify / https://odixpay.netlify.app/wallet-manager]
-Frontend: Deployed on [vercal / https://odixpay-backend.vercel.app]
+Frontend: Deployed on [netlify / https://odixpay.netlify.app/wallet-manager]
+Backend: Deployed on [vercal / https://odixpay-backend.vercel.app]
 API Documentation: [Link to API documentation if available]
 Technologies Used
 Backend: Node.js, Express.js
