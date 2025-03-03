@@ -7,7 +7,7 @@ const WalletDetails = ({ onWalletDetails }) => {
 
   const handleGetDetails = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/wallet_detail", { words: mnemonic });
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/wallet_detail`, { words: mnemonic });
       onWalletDetails(response.data); // Pass data to parent
     } catch (error) {
       console.error("Error fetching wallet details:", error);

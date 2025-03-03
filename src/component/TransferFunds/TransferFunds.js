@@ -11,7 +11,7 @@ const TransferFunds = ({ onTransactionUpdate }) => {
 
   const handleTransfer = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/transfer", {
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/transfer`, {
         privateKey,
         recipientAddress,
         amount,

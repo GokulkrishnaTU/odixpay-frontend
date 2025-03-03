@@ -9,7 +9,7 @@ const TokenAddress = () => {
 
   const getTokenAddress = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/get_token_address/${token}`);
+      const response = await axios.get(`${process.env.REACT_APP_API_URL}/get_token_address/${token}`);
       setAddress(response.data.address);
     } catch (error) {
       console.error("Error fetching token address:", error);

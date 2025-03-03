@@ -8,7 +8,7 @@ const TransactionDetails = ({ onTransactionUpdate }) => {
 
   const handleGetDetails = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/transaction_details", { txid });
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/transaction_details`, { txid });
       setDetails(response.data);
       if (onTransactionUpdate) {
         onTransactionUpdate(response.data); // Send data to parent

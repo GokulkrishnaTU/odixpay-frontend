@@ -7,7 +7,8 @@ const BalanceChecker = ({ onBalanceUpdate }) => {
 
   const handleGetBalance = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/get_balance/${address}`, {
+      const response = await axios.get(`${process.env.REACT_APP_API_URL}/get_balance/${address}`
+      , {
         params: { tokenName }
       });
       onBalanceUpdate(response.data); // Pass data to parent

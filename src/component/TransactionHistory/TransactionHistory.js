@@ -8,7 +8,8 @@ const TransactionHistory = ({ onHistoryUpdate }) => {
 
   const handleGetHistory = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/transaction_history", {
+      const response = await axios.get(`${process.env.REACT_APP_API_URL}/transaction_history`,
+ {
         params: { address } // Send address as query parameter
       });
       setHistory(response.data);
