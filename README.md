@@ -17,14 +17,10 @@ How to Run Locally
 
 
 Clone the repository:
-sh
-Copy
-Edit
+
 git clone <repository-url>
 Navigate to the backend folder and install dependencies:
-sh
-Copy
-Edit
+
 cd backend
 npm install
 Start the backend server:
