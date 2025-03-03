@@ -3,7 +3,7 @@ This project was initially provided with only the backend code in Python as part
 
 Deployment Details
 Backend: Deployed on [netlify / https://odixpay.netlify.app/wallet-manager]
-Frontend: Deployed on [vercal / v]
+Frontend: Deployed on [vercal / https://odixpay-backend.vercel.app]
 API Documentation: [Link to API documentation if available]
 Technologies Used
 Backend: Node.js, Express.js
